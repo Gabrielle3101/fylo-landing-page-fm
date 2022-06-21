@@ -118,18 +118,17 @@ button {
 }
 
 .light-blueish {
-	/* background-color: hsl(240, 75%, 98%); */
+	background-color: hsl(240, 75%, 98%);
 	margin-top: 100px;
 	position: relative;
 	padding: 50px 0;
-    background-image: url('/fylo-landing-page-with-two-column-layout-master/images/bg-curve-desktop.svg');
-	background-size: cover;
-	background-position: center center;
-background-repeat: no-repeat;}
+}
 
 .light-blueish::before {
 	content: '';
-	
+	background-image: url('./images/bg-curve-desktop.svg');
+	background-size: cover;
+	background-position: center center;
 	position: absolute;
 	top: -60px;
 	left: 0;
